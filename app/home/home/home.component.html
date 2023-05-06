@@ -1,0 +1,42 @@
+
+<div style="text-align: center;">
+    <p>Travel Planner</p>
+</div>
+  
+  <div class="slide">
+    <div class="slide-inner" id="cardMovies" class="card" *ngFor="let hotel of hotels">
+        <input class="slide-open" type="radio" id="slide-1" 
+              name="slide" aria-hidden="true" hidden="" checked="checked">
+        <div class="slide-item">
+            <div class="image">
+                <img  src='https://image.tmdb.org/t/p/original{{ hotel.poster_path }}' class="card-img-top" alt="...">
+            </div>
+        <input class="slide-open" type="radio" id="slide-2" 
+              name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src=" https://p4.wallpaperbetter.com/wallpaper/718/901/132/trees-costa-rica-mist-rain-wallpaper-preview.jpg">
+        </div>
+        <input class="slide-open" type="radio" id="slide-3" 
+              name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/367/821/215/waterfall-nauyaca-waterfalls-costa-rica-dominical-wallpaper-preview.jpg">
+        </div>
+        <label for="slide-3" class="slide-control prev control-1">‹</label>
+        <label for="slide-2" class="slide-control next control-1">›</label>
+        <label for="slide-1" class="slide-control prev control-2">‹</label>
+        <label for="slide-3" class="slide-control next control-2">›</label>
+        <label for="slide-2" class="slide-control prev control-3">‹</label>
+        <label for="slide-1" class="slide-control next control-3">›</label>
+        <ol class="slide-indicador">
+            <li>
+                <label for="slide-1" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-2" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-3" class="slide-circulo">•</label>
+            </li>
+        </ol>
+    </div>
+</div>

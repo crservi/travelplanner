@@ -1,0 +1,37 @@
+<div class="container-fluid">
+    <div>
+        <h3></h3>
+    </div>
+    <div class="row">
+        <div id="cardPaises" class="card" *ngFor="let pais of paises">
+            >
+                <h5 class="card-title">{{ pais.name }}</h5>
+                <div class="row">
+                    <div class="col-5">
+                        Votes:
+                    </div>
+                    <div class="col-7">
+                        {{ pais.front_default }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        Released:
+                    </div>
+                    <div class="col-7">
+                        {{ pais.front_default }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        Popularity:
+                    </div>
+                    <div class="col-7">
+                        {{ pais.front_default }}
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="btn btn-primary">View TV Show</a>
+            </div>
+        </div>
+    </div>

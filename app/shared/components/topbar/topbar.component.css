@@ -1,0 +1,68 @@
+.menu {
+    perspective: 800px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    transform-style: preserve-3d;
+  }
+  
+  li {
+    width: 100px;
+    height: 60px;
+    background-color: #e2dbdb;
+    color: #1f77cf;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+  }
+  
+  li:hover {
+    transform: rotateY(45deg);
+  }
+  
+  a {
+    text-decoration: none;
+    color: #05173d ;
+    font-family: Times New Roman, sans-serif;
+    font-size: 20px;
+  }
+  
+
+  .r-link{
+    display: var(--rLinkDisplay, inline-flex) !important;
+  }
+  
+  .r-link[href]{
+    color: var(--rLinkColor) !important;
+    text-decoration: var(--rLinkTextDecoration, none) !important;
+  }
+  
+  .r-list{
+    padding-left: var(--rListPaddingLeft, 0) !important;
+    margin-top: var(--rListMarginTop, 0) !important;
+    margin-bottom: var(--rListMarginBottom, 0) !important;
+    list-style: var(--rListListStyle, none) !important;
+  }
+
+h1 {
+
+  text-decoration: none;
+  color: #05173d ;
+  font-family: Times New Roman, sans-serif;
+  font-size: 35px;
+}
+  
+
+#cardMovies{
+  margin-top: 10px;
+  width: 18rem;
+  margin-left: 10px;
+}
