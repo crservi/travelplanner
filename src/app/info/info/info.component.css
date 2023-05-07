@@ -1,0 +1,65 @@
+img {
+    width: auto;
+    height: 250px;
+    color: #bbbebe;
+}
+
+#cardPaises{
+    margin-top: 10px;
+    width: 18rem;
+    margin-left: 10px;
+    color:#05173d  ;
+}
+
+.container-fluid {     
+    margin-top: 70px;
+    margin-left:260px;
+    width: auto;
+    color: #bbbebe;
+}
+.col-5{
+    color: #05173d ;
+    font-family: Times New Roman, sans-serif;
+}
+
+.col-7{
+    color: #05173d ;
+    font-family: Times New Roman, sans-serif;
+}
+.card-img-top{
+    margin-top: 30px;
+    margin-left:10px;
+    font-size: 40px;
+    border-color: #05173d;
+
+}
+.card-body{
+
+    color: #05173d 
+}
+.card{
+    color: #bbbebe;
+}
+
+.btn {
+    color: #ffffff ;
+    font-family: Times New Roman, sans-serif;
+    background-color: #05173d;
+}
+
+.titulo{
+    text-decoration: none;
+    color: #2E4053 ;
+    font-family: Times New Roman, sans-serif;
+    font-size: 40px;
+    margin-top: 25px;
+    text-align: center;
+
+
+}
+
+.card-title{
+    color: #2E4053 ;
+    font-family: Times New Roman, sans-serif;
+    font-size: 25px;
+}

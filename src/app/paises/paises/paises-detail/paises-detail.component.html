@@ -1,0 +1,24 @@
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+          <img src='{{ paisDetails.flags.svg }}' class="card-img-top" alt="COUNTRY">           
+        </div>
+        <div class="col-md-8">
+            <h1 class="mb-3">{{ paisDetails.common }}</h1>            
+            <p class="lead">{{ paisDetails.name.official }}</p>
+            <p class="lead">{{ paisDetails.capital }}</p>       
+            <ul class="list-group mb-3">
+                <li class="list-group-item"><strong>Name:</strong> {{ paisDetails.name.common }}</li>
+                <li class="list-group-item"><strong>Cast:</strong> {{ paisDetails.name.common }}</li>
+                <li class="list-group-item"><strong>Release</strong> {{ paisDetails.release_date }}</li>
+                <li class="list-group-item"><strong>Rating:</strong> {{ pais.name }}</li>
+            </ul>
+            <h5 class="mb-3">Related Map</h5>
+            <div class="list-group">
+            </div>
+            <hr>
+            <a href="{{ pais.homepage }}" target="_blank" class="btn btn-primary">Watch Now</a>            
+        </div>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+<p class="titulo">INFO COUNTRY</p>
+
+<div class="container-fluid">
+    <div>
+        <h3></h3>
+    </div>
+    <div class="row">
+        <div id="cardPaises" class="card" *ngFor="let pais of paises">
+            <div class="card-body">
+                <h5 class="card-title">{{ pais.name.common }}</h5>
+                <div class="row">
+                    <div class="col-5">
+                        Oficcial:
+                    </div>
+                    <div class="col-7">
+                        {{ pais.name.official }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        Capital:
+                    </div>
+                    <div class="col-7">
+                        {{ pais.capital }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        Continents:
+                    </div>
+                    <div class="col-7">
+                        {{ pais.continents}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        Fifa:
+                    </div>
+                    <div class="col-7">
+                        {{ pais.fifa}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        Mapas:
+                    </div>
+                    <div class="col-7">
+                        {{ pais.maps.googleMaps}}
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>
